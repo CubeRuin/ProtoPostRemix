@@ -1,6 +1,6 @@
 ProtopostRemix::Application.routes.draw do
 
-root to: "articles#index"
+root to: "students#index"
   
 resources :students
 resources :projects
