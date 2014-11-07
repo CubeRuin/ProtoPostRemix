@@ -1,4 +1,6 @@
 ProtopostRemix::Application.routes.draw do
+
+root to: "articles#index"
   
 resources :students
 resources :projects
