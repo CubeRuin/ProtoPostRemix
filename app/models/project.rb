@@ -5,4 +5,5 @@ class Project
   field :comment, type: String
 
   belongs_to :student
+  
 end

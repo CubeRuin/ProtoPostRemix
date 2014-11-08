@@ -7,6 +7,14 @@ gem 'mongoid'
 
 gem 'rails_12factor'
 
+gem 'mongoid-rspec'
+
+gem 'rspec-rails'
+
+gem 'pry-rails'
+
+gem 'bcrypt', '~> 3.1.7'
+
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.2'
@@ -32,6 +40,10 @@ gem 'jbuilder', '~> 1.2'
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
+end
+
+group :development do
+	gem 'better_errors'
 end
 
 # Use ActiveModel has_secure_password

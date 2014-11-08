@@ -1,5 +1,7 @@
 class StudentsController < ApplicationController
 
+skip_before_filter :authorize
+
 	def index
 		@students = Student.all
 	end
